@@ -8,9 +8,8 @@
         "armake_w32.exe",
         "armake_w64.exe"
     ],
-    "extract_dir": ["Program Files\\armake", "Program Files\\armake"],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/KoffeinFlummi/armake/releases/download/v0.6.3/armake_v0.6.3.zip"
+        "url": "https://github.com/KoffeinFlummi/armake/releases/download/v$version/armake_v$version.zip"
     }
 }
