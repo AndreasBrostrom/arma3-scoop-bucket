@@ -9,7 +9,9 @@
     },
     "bin": "armake_w64.exe",
     "extract_dir": ["Program Files\\armake", "Program Files\\armake"],
-    "env_add_path": "armake_v0.6.3",
+    "env_set": {
+        "GROOVY_HOME": "$dir"
+    },
     "checkver": "github",
     "autoupdate": {
         "architecture": {
