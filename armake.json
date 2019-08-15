@@ -1,0 +1,21 @@
+{
+    "version": "0.6.3",
+    "homepage": "https://github.com/KoffeinFlummi/armake/",
+    "license": "https://www.gnu.org/licenses/gpl-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/KoffeinFlummi/armake/releases/download/v0.6.3/armake_v0.6.3.zip"
+        }
+    },
+    "bin": "armake_w64.exe",
+    "extract_dir": ["Program Files\\armake", "Program Files\\armake"],
+    "env_add_path": "armake_v0.6.3",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/KoffeinFlummi/armake/releases/download/v$version/armake_v$version.zip"
+            }
+        }
+    }
+}
