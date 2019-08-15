@@ -3,5 +3,5 @@
 To install this bucket: 
 
 ```sh
-scoop bucket add EvulDev https://github.com/EvulDev/scoop-bucket
+scoop bucket add EvulDev https://github.com/EvulDev/scoop-bucket.git
 ```
