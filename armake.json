@@ -6,7 +6,7 @@
     "hash": "4314f7ad40f8dc7f1869e109a32c57478405eed479cb3b77a0327ad9a4216ce6",
     "bin": [
         "armake_w32.exe",
-        "armake_w64.exe",
+        "armake_w64.exe"
     ],
     "extract_dir": ["Program Files\\armake", "Program Files\\armake"],
     "checkver": "github",
