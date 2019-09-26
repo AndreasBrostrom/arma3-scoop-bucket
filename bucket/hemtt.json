@@ -5,12 +5,14 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/synixebrett/HEMTT/releases/download/v0.6.1/hemtt-v0.6.1-x86_64-pc-windows-msvc.zip",
+            "hash": "fa940c9108b12408214f24b6dc8fa0ba",
             "bin": [
                 ["hemtt.exe", "hemtt"]
             ]
         },
         "32bit": {
             "url": "https://github.com/synixebrett/HEMTT/releases/download/v0.6.1/hemtt-v0.6.1-i686-pc-windows-msvc.zip",
+            "hash": "9a7ae668c4bc8851d6c980b20a50e121"
             "bin": [
                 ["hemtt.exe", "hemtt"]
             ]
