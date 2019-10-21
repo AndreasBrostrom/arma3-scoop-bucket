@@ -8,7 +8,7 @@ To install this bucket:
 
 # Packages
 | Name      | Install                   | Description                                |
-| --------- | ------------------------- | |
+| --------- | ------------------------- | ------------------------------------------ |
 | armake    | `scoop install armake`    | |
 | armake2   | *N/A*                     | |
 | hemtt     | `scoop install hemtt`     | |
