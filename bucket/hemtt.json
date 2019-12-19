@@ -5,7 +5,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/synixebrett/HEMTT/releases/download/v0.7.2/hemtt-v0.7.2-x86_64-pc-windows-msvc.zip.zip",
-            "hash": "SHA256-Checksum for: (?:$basename):\\s+([a-fA-F0-9]{64})",
+            "hash": "C82995DECE528B7F157FFBE6B40B93870AA58EC7CD6742DDDE0E8EC824DD8E00",
             "bin": [
                 ["hemtt.exe", "hemtt"]
             ]
