@@ -4,7 +4,7 @@
     "license": "https://www.gnu.org/licenses/gpl-2.0",
     "architecture": {
         "url": "https://github.com/synixebrett/HEMTT/releases/download/v0.7.2/hemtt-v0.7.2-x86_64-pc-windows-msvc.zip.zip",
-        "hash": "0cdb87f5ca1751fb3ff34b9c4350d451bb586a1a7e405a10a7331cc32966e812",
+        "hash": "SHA256-Checksum for: (?:$basename):\\s+([a-fA-F0-9]{64})",
         "bin": [
             ["hemtt.exe", "hemtt"]
         ]
