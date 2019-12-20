@@ -1,4 +1,8 @@
-# arma3 scoop bucket
+# Arma3 Scoop Bucket
+
+This is a scoop.sh repository containing cli tools for developing Arma3.
+
+# Add 
 
 To install this bucket: 
 
