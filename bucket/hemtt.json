@@ -1,11 +1,18 @@
 {
-    "version": "0.7.2",
+    "version": "0.7.3",
     "homepage": "https://github.com/synixebrett/HEMTT",
     "license": "https://www.gnu.org/licenses/gpl-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/synixebrett/HEMTT/releases/download/v0.7.2/hemtt-v0.7.2-x86_64-pc-windows-msvc.zip.zip",
-            "hash": "C82995DECE528B7F157FFBE6B40B93870AA58EC7CD6742DDDE0E8EC824DD8E00",
+            "url": "https://github.com/synixebrett/HEMTT/releases/download/v0.7.3/hemtt-v0.7.3-x86_64-pc-windows-msvc.zip",
+            "hash": "0cdb87f5ca1751fb3ff34b9c4350d451bb586a1a7e405a10a7331cc32966e812",
+            "bin": [
+                ["hemtt.exe", "hemtt"]
+            ]
+        },
+        "32bit": {
+            "url": "https://github.com/synixebrett/HEMTT/releases/download/v0.7.3/hemtt-v0.7.3-i686-pc-windows-msvc.zip",
+            "hash": "90ab51c4832585f45ac8a91e9ebab2eda539ddd43a2bc336969a399801dd5702",
             "bin": [
                 ["hemtt.exe", "hemtt"]
             ]
@@ -14,7 +21,10 @@
     "checkver": "github",
     "autoupdate": {
         "64bit": {
-            "url": "https://github.com/synixebrett/HEMTT/releases/download/v0.7.2/hemtt-v0.7.2-x86_64-pc-windows-msvc.zip.zip"
+            "url": "https://github.com/synixebrett/HEMTT/releases/download/v$version/hemtt-v$version-x86_64-pc-windows-msvc.zip"
+        },
+        "32bit": {
+            "url": "https://github.com/synixebrett/HEMTT/releases/download/v$version/hemtt-v$version-i686-pc-windows-msvc.zip"
         }
     }
 }
